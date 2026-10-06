@@ -1,0 +1,253 @@
+/*GENERAL PAGE STYLING*/
+
+body {
+    margin: 0;
+    background-color: #0a0a0a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*HEADER/
+
+header {
+    background-color: #b8ff00;
+    color: #111111;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*NAVIGATION*/
+
+nav {
+    background-color: #111111;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #b8ff00;
+}
+
+nav a {
+    color: #b8ff00;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+/*MAIN CONTENT*/
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #b8ff00;
+    font-size: 30px;
+}
+
+
+/*INTRODUCTION*/
+
+.intro {
+    text-align: center;
+    border-bottom: 2px solid #b8ff00;
+    padding: 30px;
+}
+
+.intro p {
+    line-height: 1.6;
+}
+
+
+/*NCT UNIT SECTION*/
+
+.units {
+    text-align: center;
+}
+
+.unit-card {
+    background-color: #181818;
+    border: 3px solid #b8ff00;
+    width: 60%;
+    margin: 25px auto;
+    padding: 25px;
+}
+
+.unit-card h3 {
+    color: #b8ff00;
+    font-size: 24px;
+}
+
+.unit-card p {
+    line-height: 1.5;
+}
+
+.unit-card a {
+    color: #b8ff00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.unit-card a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/*NCT FORMULA*/
+
+.formula-section {
+    background-color: #b8ff00;
+    color: #111111;
+    text-align: center;
+    padding: 35px;
+}
+
+.formula-section h2 {
+    color: #111111;
+}
+
+math {
+    color: #111111;
+    font-size: 30px;
+}
+
+
+/*FAVORITE NCT UNIT FORM*/
+
+.favorite-section {
+    text-align: center;
+    border: 3px solid #b8ff00;
+    padding: 30px;
+}
+
+.favorite-section label {
+    margin: 15px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #b8ff00;
+    color: #111111;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+/*UNIT PAGE INTRODUCTION*/
+
+.unit-intro {
+    text-align: center;
+    border-bottom: 2px solid #b8ff00;
+    padding: 30px;
+}
+
+.unit-intro p {
+    line-height: 1.6;
+}
+
+
+/*MEMBER SECTIONS*/
+
+.members {
+    background-color: #181818;
+    border: 2px solid #b8ff00;
+    padding: 30px;
+}
+
+.members li {
+    margin: 10px;
+}
+
+
+/*SONG SECTIONS*/
+
+.songs {
+    border: 2px solid #b8ff00;
+    padding: 30px;
+}
+
+.songs li {
+    margin: 10px;
+}
+
+.songs p {
+    line-height: 1.6;
+}
+
+
+/*WHY I LIKE THE UNIT*/
+
+.why-i-like {
+    background-color: #b8ff00;
+    color: #111111;
+    padding: 30px;
+}
+
+.why-i-like h2 {
+    color: #111111;
+}
+
+.why-i-like p {
+    line-height: 1.6;
+}
+
+
+/*SUBSCRIPT ELEMENT*/
+
+sub {
+    font-size: 25px;
+}
+
+/*IMAGES*/
+
+.main-image {
+    width: 70%;
+    margin: 20px;
+    border: 3px solid #b8ff00;
+}
+
+.unit-image {
+    width: 70%;
+    margin: 20px;
+    border: 3px solid #b8ff00;
+}
+
+/*CANVAS*/
+
+.canvas-section {
+    text-align: center;
+}
+
+canvas {
+    background-color: #b8ff00;
+    border: 5px solid white;
+    margin: 20px;
+}

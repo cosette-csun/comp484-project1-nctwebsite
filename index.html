@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NCT | Home</title>
+
+    <!-- Connects this page to the main CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- PAGE HEADER -->
+    <header>
+        <h1>NCT</h1>
+        <p>To the World, 여기는 NCT!</p>
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="nct127.html">NCT 127</a>
+        <a href="nctdream.html">NCT DREAM</a>
+        <a href="wayv.html">WayV</a>
+        <a href="nctwish.html">NCT WISH</a>
+    </nav>
+
+
+    <main>
+
+        <!-- INTRODUCTION -->
+        <section class="intro">
+            <h2>Welcome to NCT</h2>
+            
+            <img src="images/nct.png"
+            alt="NCT group"
+            class="main-image">
+
+            <p>
+                Welcome to my website about NCT! NCT is one of my favorite
+                K-pop groups because of their unique concept, different units,
+                music, and members. This website explores four NCT units:
+                NCT 127, NCT DREAM, WayV, and NCT WISH.
+            </p>
+        </section>
+
+
+        <!-- EXPLORE THE NCT UNITS -->
+        <section class="units">
+
+            <h2>Explore the Units</h2>
+
+            <div class="unit-container">
+
+                <article class="unit-card">
+                    <h3>NCT 127</h3>
+
+                    <p>
+                        Learn more about NCT 127, their members,
+                        music, and some of my favorite songs.
+                    </p>
+
+                    <a href="nct127.html">Explore NCT 127</a>
+                </article>
+
+
+                <article class="unit-card">
+                    <h3>NCT DREAM</h3>
+
+                    <p>
+                        Learn more about NCT DREAM, their members,
+                        music, and some of my favorite songs.
+                    </p>
+
+                    <a href="nctdream.html">Explore NCT DREAM</a>
+                </article>
+
+
+                <article class="unit-card">
+                    <h3>WayV</h3>
+
+                    <p>
+                        Learn more about WayV, their members,
+                        music, and some of my favorite songs.
+                    </p>
+
+                    <a href="wayv.html">Explore WayV</a>
+                </article>
+
+
+                <article class="unit-card">
+                    <h3>NCT WISH</h3>
+
+                    <p>
+                        Learn more about NCT WISH, their members,
+                        music, and some of my favorite songs.
+                    </p>
+
+                    <a href="nctwish.html">Explore NCT WISH</a>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- NCT FORMULA -->
+        <section class="formula-section">
+
+            <h2>The NCT Formula</h2>
+
+            <!--
+            MDN ELEMENT: <math>
+            Location: Homepage in "The NCT Formula" section.
+            Use: The MathML element displays NCT as a combination
+            of the four units featured on this website.
+            -->
+
+            <math>
+                <mrow>
+                    <mi>NCT</mi>
+                    <mo>=</mo>
+                    <mi>127</mi>
+                    <mo>+</mo>
+                    <mi>DREAM</mi>
+                    <mo>+</mo>
+                    <mi>WayV</mi>
+                    <mo>+</mo>
+                    <mi>WISH</mi>
+                </mrow>
+            </math>
+
+        </section>
+
+        <!-- NCT CANVAS SECTION -->
+
+        <section class="canvas-section">
+
+            <h2>NCT Design</h2>
+
+            <p>
+                A canvas area inspired by NCT's signature neon green color.
+            </p>
+
+            <!--
+            MDN ELEMENT: <canvas>
+            Location: Homepage in the NCT Design section.
+            Use: The canvas element creates an area that can be used
+            for graphics on the webpage.
+            -->
+
+            <canvas id="nctCanvas"
+                    width="500"
+                    height="150">
+                Your browser does not support the canvas element.
+            </canvas>
+
+        </section>
+
+        <!-- FAVORITE UNIT -->
+        <section class="favorite-section">
+
+            <h2>What's Your Favorite NCT Unit?</h2>
+
+            <form>
+
+                <!--
+                MDN ATTRIBUTE: checked
+                Location: Favorite NCT Unit form on the homepage.
+                Use: The checked attribute makes NCT 127 selected
+                by default when the webpage loads.
+                -->
+
+                <label>
+                    <input type="radio"
+                           name="favorite-unit"
+                           value="nct127"
+                           checked>
+                    NCT 127
+                </label>
+
+                <label>
+                    <input type="radio"
+                           name="favorite-unit"
+                           value="nctdream">
+                    NCT DREAM
+                </label>
+
+                <label>
+                    <input type="radio"
+                           name="favorite-unit"
+                           value="wayv">
+                    WayV
+                </label>
+
+                <label>
+                    <input type="radio"
+                           name="favorite-unit"
+                           value="nctwish">
+                    NCT WISH
+                </label>
+
+            </form>
+
+        <h3>Choose an NCT Color</h3>
+
+            <p>
+                Pick a color that you think represents NCT!
+            </p>
+
+            <!--
+            MDN ATTRIBUTE: colorspace
+            Location: Homepage in the NCT color picker.
+            Use: The colorspace attribute specifies the color space
+            used by the color input.
+            -->
+
+            <label for="nct-color">Choose a color:</label>
+
+            <input type="color"
+                id="nct-color"
+                name="nct-color"
+                value="#b8ff00"
+                colorspace="display-p3">
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Created by Cosette Espino | COMP 484</p>
+    </footer>
+
+</body>
+
+</html>
